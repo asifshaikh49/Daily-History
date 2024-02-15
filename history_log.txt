@@ -1,0 +1,141 @@
+    1  ls
+    2  cd Devops/
+    3  ls
+    4  cd Git/
+    5  ls
+    6  git branch
+    7  git stash
+    8  git status
+    9  git log --oneline
+   10  git checkout dev
+   11  git checkout main
+   12  vim virsion01.txt
+   13  vim if.sh
+   14  chmod 700 if.sh
+   15  ls
+   16  ./if.sh
+   17  git stash
+   18  git status
+   19  git add if.sh
+   20  git status
+   21  git stash
+   22  git status
+   23  git stash pop
+   24  vim if.sh
+   25  git add if.sh
+   26  ./if.sh
+   27  git status
+   28  git commit -m "This is the bug fix in development branch"
+   29  vim if.sh
+   30  git status
+   31  git add if.sh
+   32  git commit -m "Added feature2.1 in development branch"
+   33  vim if.sh
+   34  git add if.sh
+   35  git commit -m "Added feature2.2 in development branch"
+   36  vim if.sh
+   37  git add if.sh
+   38  git commit -m "Feature2 completed"
+   39  vim if.sh
+   40  git add if.sh
+   41  git log
+   42  git cherry-pick commit 67269352d402f85e466609623a9d09ef97cc10f0
+   43  git cherry-pick 67269352d402f85e466609623a9d09ef97cc10f0
+   44  git cherry-pick 3548b3055c2706c
+   45  git status
+   46  git commit -m "Optimized the feature"
+   47  git log --oneline
+   48  git cherry-pick 6726935
+   49  git stash
+   50  git cherry-pick 6726935
+   51  git stash apply
+   52  git merge --continue
+   53  git add if.sh
+   54  git merge --continue
+   55  git cherry-pick --continue
+   56  git add if.sh
+   57  git commit -m "Optimized the feature"
+   58  git push origin main
+   59  ./if.sh
+   60  vim if.sh
+   61  ./if.sh
+   62  ls
+   63  cd ..
+   64  logout
+   65  docker ps
+   66  ls
+   67  cd Devops/
+   68  ls
+   69  cd Git/
+   70  ls
+   71  docker ps
+   72  cd ..
+   73  sudo apt-get update
+   74  sudo apt-get install docker.io
+   75  systemctl status docker
+   76  mkdir project
+   77  ls
+   78  cd project/
+   79  mkdir java-app
+   80  vi Hello.java
+   81  cd java-app
+   82  ls
+   83  cp Hello.java Hello.java
+   84  vi Hello.java
+   85  cd ..
+   86  ls
+   87  rm Hello.java
+   88  ls
+   89  cd java-app/
+   90  ls
+   91  Vim DockerFile
+   92  cd ..
+   93  ls
+   94  cat /etc/group
+   95  sudo usermod -aG docker ubuntu
+   96  cat /etc/group
+   97  docker ps
+   98  sudo reboot
+   99  docker ps
+  100  cd project/
+  101  cd java-app/
+  102  ls
+  103  vim Dockerfile
+  104  docker build -t java-app:latest .
+  105  docker run java-app:latest
+  106  ls
+  107  docker login
+  108  cd ..
+  109  docker images
+  110  docker tag java-app:latest asifshaikh49/java-app:latest
+  111  docker images
+  112  docker push asifshaikh49/java-app:latest
+  113  ls
+  114  cd Devops/
+  115  ls
+  116  vim History.sh
+  117  bash History.sh
+  118  chmod 755 History.sh
+  119  ./History.sh
+  120  ls
+  121  bash history_log.txt
+  122  cat history_log.txt
+  123  bash history_log.txt
+  124  chmod 755 history_log.txt
+  125  ls
+  126  ./history_log.txt
+  127  vim History.sh
+  128  ./History.sh
+  129  vim History.sh
+  130  vim history_log.txt
+  131  bash history_log.txt
+  132  vim history_log.txt
+  133  vim save.sh
+  134  bash save.sh
+  135  cat history_log.txt
+  136  cd ..
+  137  docker run asifshaikh49/java-app:latest
+  138  lsss
+  139  histroy
+  140  history
+
